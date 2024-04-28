@@ -6,6 +6,7 @@ use App\Http\Controllers\PetugasController;
 use App\Http\Controllers\KonsumenController;
 use App\Http\Controllers\PimpinanController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\HistoryOrderController;
 use App\Http\Controllers\JenisLayananController;
 use App\Http\Controllers\JenisPembayaranController;
 
@@ -32,6 +33,7 @@ Route::resource('/konsumen', KonsumenController::class,['expect' =>['show']]);
 Route::resource('/jenis-pembayaran', JenisPembayaranController::class,['expect' =>['show']]);
 Route::resource('/jenis-layanan', JenisLayananController::class,['expect' =>['show']]);
 Route::resource('/order', OrderController::class,['expect' =>['show']]);
+Route::resource('/history', HistoryOrderController::class,['expect' =>['show']]);
 
 Route::resource('/pimpinan', PimpinanController::class,['expect' =>['show']]);
 Route::resource('/petugas', PetugasController::class,['expect' =>['show']]);
