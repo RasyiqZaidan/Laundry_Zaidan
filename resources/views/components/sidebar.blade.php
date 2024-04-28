@@ -45,7 +45,7 @@
             @canany(['history-order'])
 
             <li class="menu-item">
-                <a href="/history-order" class="menu-link">
+                <a href="/history" class="menu-link">
                     <i class="menu-icon tf-icons bx bx-clinic"></i>
                     <div data-i18n="Basic" class="hide-menu">History Order</div>
                 </a>

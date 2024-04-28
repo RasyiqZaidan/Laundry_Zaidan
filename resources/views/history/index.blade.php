@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-<h1>INI HALAMAN ORDER</h1>
+<h1>INI HALAMAN HISTORY</h1>
 @endsection
